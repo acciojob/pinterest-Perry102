@@ -1,1 +1,47 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: content-box;
+}
+
+.hero{
+    display: flex;
+    align-items: center;  
+}
+
+.img{
+    object-fit: cover;
+    height: 400px;
+    width: 50vw;
+}
+
+.cont{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 10px 30px;
+    width: 30%;
+}
+
+.h{
+    margin-bottom: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.para{
+   margin-bottom: 10px;
+}
+
+.btn{
+   
+   padding: 10px;
+   color: white;
+   background-color: rgb(232, 37, 37);
+   border-radius: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   border: none;
+   cursor: pointer;
+   text-decoration: none;
+
+}
